@@ -1,0 +1,13 @@
+American Sign Language Recognition:
+
+My final project will be on using a deep learning model to be able to classify the images of the ASL alphabet. 
+
+The dataset that I will use will be available on Kaggle found at: 
+- https://www.kaggle.com/datasets/lexset/synthetic-asl-alphabet
+
+The dataset includes images of all 26 letters and an extra classes for blank space (background images). The data is split up into training and testing sets with the training data folders having 900 examples and the testing data folders having 100 examples for each sign. 
+
+I plan to use a Convolutional Neural Network to be able to anaylze the dataset and recognize the specific sign in the image. I chose this model because it can be very powerful with limited assistance from the beginning that is mainly used for imaging analysis. It's also very versatile and can be appled for numerous cases and simply would like to learn more about the functionality with this project. 
+
+I will evaluate the model's performance based off of the training accuracy and  validation accuracy. Finally, when using selected test images once the model is
+completed I will analyze on a case by case basis on how it performs with new, unseen data. 

@@ -1,2 +1,5 @@
 # Data-Science-Capstone-Project
-A final project that uses the methods and functions learned throughout my data science bootcamp
+
+A final project that uses the methods and functions learned throughout my data science bootcamp. This project was designed to take an image dataset of the ASL sign-language alphabet and use the media pipe library to utilize the hand landmarking tools. Then a classification model is used to be fitted with the data as to enable live video recognition. 
+
+I have partitioned my code in 3 sections; The first section deals mainly with data pre-processing, accessing the images from different directories, renaming and creating a dataframe of each individual image data. The second portion of code is focused on creating the 3 classifiers as to compare their accuracy and performance on the training data given and are then stored in a pickle file for future use. The third and last segment of code deals with the implementation of the classifiers on live webcam capture with the hand-landmarking tools and below that are attempts to fit different and unseen data by the models and check their individual performances. 
